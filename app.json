@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "expo-signed-android-app-image-problem",
+    "slug": "expo-signed-android-app-image-problem",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ykosaka.expoimagebugtest",
+      "publishBundlePath": "ios/expo-signed-android-app-image-problem/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/expo-signed-android-app-image-problem/Supporting/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.10.2-sdk32.0.0-c59c23cd-1d49-49d2-a633-d03f9d554cf6.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.3-sdk32.0.0-ed1efe35-b32f-4341-9777-d772d1dfd9ea.tar.gz"
+    },
+    "scheme": "exp0faa4c1a8a8442398afc5b1b7e3dc3c3",
+    "android": {
+      "package": "com.ykosaka.expoimagebugtest",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}
